@@ -14,7 +14,7 @@ from azure.core.exceptions import ResourceExistsError
 
 
 def main(name: str) -> list:
-    blob_service_client = BlobServiceClient.from_connection_string("DefaultEndpointsProtocol=https;AccountName=mapreducetask5;AccountKey=4CsJIxITlvRttjslZXXJApv6+uFLDSK3uVtlqE49hdynm9qr6VkC+EwuqD82wY57PVwXHIkUB3N3+AStNusT6A==;EndpointSuffix=core.windows.net")
+    blob_service_client = BlobServiceClient.from_connection_string("My_connection_string")
 
     container_name = "blobs"
 
